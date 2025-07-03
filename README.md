@@ -39,8 +39,6 @@ Attention(Q, K, V) = softmax(QKᵀ / √d) · V
 same way for  100,000 tokens , attention matrix size is 10 billion values and 
 it cost ~40 gb which is huge cost 
 ># and this  is for one attention head, in one layer only
-> # This is for one attention head, in one layer only
->
 > - Each attention head computes its own [n × n] attention matrix independently.
 > - A Transformer layer typically has 8–12 heads running in parallel.
 > - The outputs of all heads are concatenated and linearly transformed.
