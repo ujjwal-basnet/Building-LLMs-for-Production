@@ -48,5 +48,17 @@ it cost ~40 gb which is huge cost
 
 
 
+# Transformer Context Window Optimization
+
+The **`O(n²)` complexity** in attention mechanisms creates a significant bottleneck, limiting the **context window**(the amount of text a model can process at once) 
+
+>To overcome this, researchers have developed several optimization techniques that allow models to handle vastly longer contexts—up to 100,000 tokens and beyond—while managing computational and memory costs.
+
+
+>they are 
+
+
+
+
 
 
