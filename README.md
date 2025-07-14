@@ -55,10 +55,16 @@ The **`O(n²)` complexity** in attention mechanisms creates a significant bottle
 >To overcome this, researchers have developed several optimization techniques that allow models to handle vastly longer contexts—up to 100,000 tokens and beyond—while managing computational and memory costs.
 
 
->they are 
+[click here for optimization techquies]
+*********************************
+
+ # Evaluation Metrics of LLm 
+>•	Intrinsic metrics:  which are directly related to the training objective. A well-known intrinsic metric is **perplexity**.
+
+> Extrinsic metrics evaluate performance across various downstream tasks and are not directly connected to the training objective. Popular examples of extrinsic metrics include benchmarking frameworks like GLUE, SuperGLUE, BIG-bench, HELM, and FLASK.
 
 
+> # Perplexity  
+> perplexility means confuse , puzzled or uncertain  , higher the value of perplexility less the model is accurate 
 
-
-
-
+[click here to see Perplexilit calcuation]
